@@ -1,12 +1,15 @@
 {
-  "name": "eslint-config-project",
+  "name": "@akeus/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link": "npm link",
+    "unlink": "npm unlink"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Miguel Angel Ake Us",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.22.0"
+  }
 }

@@ -2,14 +2,23 @@
   "name": "@akeus/eslint-config",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "link": "npm link",
-    "unlink": "npm unlink"
+    "unlink": "npm unlink",
+    "lint:html": "eslint --ext .html"
   },
   "author": "Miguel Angel Ake Us",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@html-eslint/eslint-plugin": "^0.35.2",
+    "@html-eslint/parser": "^0.35.2",
+    "globals": "^16.0.0",
+    "typescript-eslint": "^8.26.1"
+  },
+  "peerDependencies": {
     "eslint": "^9.22.0"
   }
 }

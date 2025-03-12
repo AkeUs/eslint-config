@@ -1,9 +1,9 @@
 import tsLint from 'typescript-eslint'
 import tsRules from '../rules/ts-rules.js'
 
-const strict = tsLint.configs.strictTypeChecked
+const strictTypeChecked = tsLint.configs.strictTypeChecked
   .find(r => r.name === 'typescript-eslint/strict-type-checked')
-const stylistic = tsLint.configs.stylisticTypeChecked
+const stylisticTypeChecked = tsLint.configs.stylisticTypeChecked
   .find(r => r.name === 'typescript-eslint/stylistic-type-checked')
 
 export default tsLint.config(
@@ -12,8 +12,8 @@ export default tsLint.config(
     ...tsLint.configs.eslintRecommended,
     rules: {
       ...tsLint.configs.eslintRecommended.rules,
-      ...strict.rules,
-      ...stylistic.rules,
+      ...strictTypeChecked.rules,
+      ...stylisticTypeChecked.rules,
       ...tsRules,
     },
   },

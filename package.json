@@ -11,8 +11,8 @@
   "license": "ISC",
   "description": "",
   "files": [
-    "configs",
-    "rules",
+    "configs/",
+    "rules/",
     "index.js"
   ],
   "dependencies": {
@@ -25,8 +25,5 @@
   },
   "peerDependencies": {
     "eslint": ">=9.22.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.8.2"
   }
 }

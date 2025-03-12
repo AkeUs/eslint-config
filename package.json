@@ -5,20 +5,28 @@
   "type": "module",
   "scripts": {
     "link": "npm link",
-    "unlink": "npm unlink",
-    "lint:html": "eslint --ext .html"
+    "unlink": "npm unlink"
   },
   "author": "Miguel Angel Ake Us",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "files": [
+    "configs",
+    "rules",
+    "index.js"
+  ],
+  "dependencies": {
     "@eslint/js": "^9.22.0",
     "@html-eslint/eslint-plugin": "^0.35.2",
     "@html-eslint/parser": "^0.35.2",
+    "@stylistic/eslint-plugin": "^4.2.0",
     "globals": "^16.0.0",
     "typescript-eslint": "^8.26.1"
   },
   "peerDependencies": {
-    "eslint": "^9.22.0"
+    "eslint": ">=9.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
   }
 }

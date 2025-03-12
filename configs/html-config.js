@@ -1,12 +1,14 @@
-import htmlLint from '@html-eslint/eslint-plugin';
-import { htmlRules } from './../rules/html-rules.js';
+import htmlLint from '@html-eslint/eslint-plugin'
+import htmlRules from './../rules/html-rules.js'
 
-export const htmlConfig = {
-    name: '@html-eslint/recommended',
-    files: ['**/*.html'],
+export default [
+  {
+    name: 'html-eslint/recommended',
     ...htmlLint.configs['flat/recommended'],
+    files: ['**/*.html'],
     rules: {
-        ...htmlLint.configs['flat/recommended'].rules,
-        ...htmlRules
+      ...htmlLint.configs['flat/recommended'].rules,
+      ...htmlRules,
     },
-}
+  },
+]

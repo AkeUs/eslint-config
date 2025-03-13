@@ -5,7 +5,6 @@ export default {
   '@html-eslint/no-inline-styles': 'error',
   '@html-eslint/no-obsolete-tags': 'error',
   '@html-eslint/no-script-style-type': 'error',
-  '@html-eslint/no-target-blank': 'error',
   '@html-eslint/require-meta-charset': 'error',
   // Accessibility
   '@html-eslint/no-abstract-roles': 'error',
@@ -17,7 +16,7 @@ export default {
   '@html-eslint/require-img-alt': 'error',
   '@html-eslint/require-meta-viewport': 'error',
   // Style
-  '@html-eslint/attrs-newline': ['error', { closeStyle: 'newline', ifAttrsMoreThan: 3 }],
+  '@html-eslint/attrs-newline': ['error', { closeStyle: 'newline', ifAttrsMoreThan: 2 }],
   '@html-eslint/id-naming-convention': ['error', 'kebab-case'],
   '@html-eslint/indent': ['error', 2],
   '@html-eslint/no-extra-spacing-attrs': 'error',

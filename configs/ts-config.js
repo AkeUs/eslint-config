@@ -16,6 +16,7 @@ export default tsLint.config(
       ...stylisticTypeChecked.rules,
       ...tsRules,
     },
+    name: 'typescript-eslint/strict-stylistic-type-checked-with-override',
   },
   {
     name: 'typescript-eslint/linting-with-type-information',

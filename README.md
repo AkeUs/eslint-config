@@ -1,7 +1,7 @@
 # ESLint Config
 
-These are my personal eslint rules for frontend projects. 
-They include rules for:
+These are my personal eslint rules for frontend projects.  
+They include rules for:  
 
 - HTML with `@html-eslint`
 - Javascript with `@eslint/js` and `@stylistic`
@@ -22,4 +22,3 @@ export default [
   ...config,
 ]
 ```
-

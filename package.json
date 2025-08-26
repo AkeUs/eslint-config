@@ -9,7 +9,7 @@
     "lint:fix": "eslint . --fix"
   },
   "author": "Miguel Angel Ake Us",
-  "license": "ISC",
+  "license": "MIT",
   "description": "Custom rules set for project js, ts, html",
   "files": [
     "configs/",

@@ -1,6 +1,12 @@
 export default {
   '@typescript-eslint/explicit-function-return-type': 'error',
   '@typescript-eslint/explicit-module-boundary-types': 'error',
+  '@typescript-eslint/no-extraneous-class': ['error', {
+    allowStaticOnly: true,
+    allowConstructorOnly: true,
+    allowWithDecorator: true,
+    allowEmpty: true,
+  }],
   '@typescript-eslint/naming-convention': ['error',
     {
       selector: 'variableLike',

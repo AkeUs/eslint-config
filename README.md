@@ -22,3 +22,23 @@ export default [
   ...config,
 ]
 ```
+
+## Create a version
+
+Update version in `package.json` with semver
+
+```json
+{
+  "name": "@akeus/eslint-config",
+  "version": "1.0.0"
+}
+```
+
+next version will be
+
+```json
+{
+  "name": "@akeus/eslint-config",
+  "version": "1.0.1"
+}
+```
